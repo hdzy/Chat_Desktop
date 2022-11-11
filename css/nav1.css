@@ -1,0 +1,49 @@
+#nav-first .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 75px;
+    background: url("/img/bg_nav1.svg");
+    mix-blend-mode: normal;
+}
+
+.row img {
+    position: relative;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    background: rgba(0, 0, 0, 0.0001);
+    z-index: 1;
+}
+
+.row img:first-child {
+    margin: 11px 100px 10px 10px;
+}
+
+.row img:last-child {
+    opacity: 0.7;
+}
+
+.row img:last-child:hover {
+    opacity: 1;
+}
+
+.row .i5 {
+    margin-bottom: 505px;
+}
+
+.row img:active {
+    opacity: 1;
+}
+
+.active {
+    opacity: 1 !important;
+}
+
+#activeChecker {
+    width: 8px;
+    height: 9px;
+    position: absolute;
+    left: -2px;
+    top: 63px;
+    transform: translateY(0px);
+}
