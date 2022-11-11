@@ -1,8 +1,15 @@
 @import "nav1.css";
 @import "nav2.css";
-@import "reset.css.css";
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 body {
     background: url("/img/bgimage.jpg") no-repeat;
     background-size: cover;
+    font-family: Lato, serif;
+}
+
+.main--container {
+    display: flex;
+    justify-content: flex-start;
 }

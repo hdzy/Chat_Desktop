@@ -3,7 +3,7 @@ let oldElement =1;
 let activeChecker = document.getElementById("activeChecker");
 let temp;
 
-for (i=0; i<7; i++) {
+for (i=0; i<=7; i++) {
     element[i].addEventListener('click', addClassActive(i));
 }
 
@@ -15,7 +15,7 @@ function addClassActive(getElem) {
             oldElement = getElem;
             switch (getElem) {
                 case 1:
-                    temp=63; //4.5
+                    temp=63;
                     break;
                 case 2:
                     temp=136;
@@ -28,6 +28,12 @@ function addClassActive(getElem) {
                     break;
                 case 5:
                     temp=354;
+                    break;
+                case 6:
+                    temp=425;
+                    break;
+                case 7:
+                    temp=498;
                     break;
             }
             activeChecker.style.top=temp+"px";
